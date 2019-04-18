@@ -5,3 +5,4 @@
   - Account-Lockout 
 - Kerberos subscription moved to WEC7-Kerberos channel
 - Authebtication subscription moved to WEC7-Authentication
+- CustomEvetnChannels.man changed accordingly
