@@ -15,7 +15,7 @@ If you're like us and don't trust random DLLs, feel free to use our manifest fil
 * **WEC-Powershell**: Event channel for collecting PowerShell events.
 * **WEC-WMI:** Event channel for collecting WMI events.
 * **WEC-EMET**: Event channel for collecting EMET events.
-* **WEC-Authentication**: Event channel for collecting authentication events.
+* **WEC-Authentication-Other**: Event channel for collecting NTLM, Account-Lockout and Explicit-Credential events.
 * **WEC-Services**: Event channel for collecting services events.
 * **WEC-Process-Execution**: Event channel for collecting process creation/termination events.
 * **WEC-Code-Integrity**: Event channel for collecting device guard and code integrity events.
@@ -57,6 +57,8 @@ If you're like us and don't trust random DLLs, feel free to use our manifest fil
 * **WEC7-Active-Directory**: Event channel for collecting Active Directory change events.
 * **WEC7-Terminal-Services**: Event channel for collecting Terminal Services and Terminal Services Gateway events.
 * **WEC7-Privilege-Use**: Event channel for collecting privilege events.
+* **WEC7-Authentication**: Event channel for collecting authentication events.
+* **WEC7-Kerberos**: Event channel for collecting Kerberos events.
 
 ## Pre-Requisites:
 You will need the following software to build the DLL:

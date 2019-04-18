@@ -11,7 +11,7 @@
 					<channel name="WEC-Powershell" chid="WEC-Powershell" symbol="WEC_Powershell" type="Operational" enabled="true"></channel>
 					<channel name="WEC-WMI" chid="WEC-WMI" symbol="WEC_WMI" type="Operational" enabled="true"></channel>
 					<channel name="WEC-EMET" chid="WEC-EMET" symbol="WEC_EMET" type="Operational" enabled="true"></channel>
-					<channel name="WEC-Authentication" chid="WEC-Authentication" symbol="WEC_Authentication" type="Operational" enabled="true"></channel>
+					<channel name="WEC-Authentication-Other" chid="WEC-Authentication-Other" symbol="WEC_Authentication_Other" type="Operational" enabled="true"></channel>
 					<channel name="WEC-Services" chid="WEC-Services" symbol="WEC_Services" type="Operational" enabled="true"></channel>
 					<channel name="WEC-Process-Execution" chid="WEC-Process-Execution" symbol="WEC_Process_Execution" type="Operational" enabled="true"></channel>
 					<channel name="WEC-Code-Integrity" chid="WEC-Code-Integrity" symbol="WEC_Code_Integrity" type="Operational" enabled="true"></channel>
@@ -137,6 +137,8 @@
 					<channel name="WEC7-Active-Directory" chid="WEC7-Active-Directory" symbol="WEC7_Active_Directory" type="Operational" enabled="true"></channel>
 					<channel name="WEC7-Terminal-Services" chid="WEC7-Terminal-Services" symbol="WEC7_Terminal_Services" type="Operational" enabled="true"></channel>
 					<channel name="WEC7-Privilege-Use" chid="WEC7-Privilege-Use" symbol="WEC7_Privilege_Use" type="Operational" enabled="true"></channel>
+					<channel name="WEC7-Authentication" chid="WEC7-Authentication" symbol="WEC7_Authentication" type="Operational" enabled="true"></channel>
+					<channel name="WEC7-Kerberos" chid="WEC7-Kerberos" symbol="WEC7_Kerberos" type="Operational" enabled="true"></channel>
 				</channels>
 				<templates>
 					<template tid="DUMMY_TEMPLATE">

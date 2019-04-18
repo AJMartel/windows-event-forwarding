@@ -31,7 +31,7 @@
   <TransportName>http</TransportName>
   <ContentFormat>RenderedText</ContentFormat>
   <Locale Language="en-US"/>
-  <LogFile>WEC-Authentication</LogFile>
+  <LogFile>WEC7-Kerberos</LogFile>
   <AllowedSourceNonDomainComputers/>
   <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
 </Subscription>
