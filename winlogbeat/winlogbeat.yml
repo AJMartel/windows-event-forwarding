@@ -1,7 +1,16 @@
 winlogbeat.event_logs:
   - name: Application
+      ignore_older: 72h
   - name: Security
+    event_id: ...
+    processors:
+      - drop_event.when.not.or:
+        - equals.event_id: 903
+        - equals.event_id: 1024
+        - equals.event_id: 4624
   - name: System
+  - name: Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
+  - name: Microsoft-Windows-Sysmon/Operational
 
 output.elasticsearch:
   hosts:
