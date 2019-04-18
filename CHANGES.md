@@ -6,3 +6,4 @@
 - wef-subscriptions / Kerberos subscription moved to WEC7-Kerberos channel
 - wef-subscriptions / Authentication subscription moved to WEC7-Authentication
 - windows-event-channels / CustomEvetnChannels.man changed accordingly
+- 
