@@ -74,7 +74,23 @@ Many open source publications were referenced for the development of these Subsc
 * [XPath Documentation](https://www.w3.org/TR/xpath/)
 * [Exploit Guard Event Views](https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/event-views-exploit-guard)
 
-**From: [NSA Github Repository - WELM](https://github.com/nsacyber/Windows-Event-Log-Messages)**
+**From: [NSA Github Repository - Windows Event Log Messages](https://github.com/nsacyber/Windows-Event-Log-Messages)**
 * [Spotting the Adversary with Windows Event Log Monitoring](https://apps.nsa.gov/iaarchive/library/reports/spotting-the-adversary-with-windows-event-log-monitoring.cfm)
 * [Event-Forwarding-Guidance](https://github.com/nsacyber/Event-Forwarding-Guidance) repository for the Spotting the Adversary with Windows Event Log Monitoring paper
 * [Windows 10 and Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630)
+
+**From: [NSA Github Repository - Event Forwarding Guidance](https://github.com/nsacyber/Event-Forwarding-Guidance)**
+* [Microsoft Windows Event Forwarding resources](https://aka.ms/wef)
+* [Use Windows Event Forwarding to help with intrusion detection](https://docs.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection)
+* [Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630)
+* [Microsoft's Threat Protection: Advanced security audit policy settings](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings)
+* [Microsoft's Threat Protection: Security auditing](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/security-auditing-overview)
+* [List of important events from Microsoft](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
+* [Microsoft SysInternals Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
+* [ACSC GitHub Windows Event Logging repository](https://github.com/AustralianCyberSecurityCentre/windows_event_logging)
+* [ACSC Windows Event Logging Technical Guidance](https://acsc.gov.au/publications/protect/Windows_Event_Logging_Technical_Guidance.pdf)
+* [Creating Custom Windows Event Forwarding Logs](https://blogs.technet.microsoft.com/russellt/2016/05/18/creating-custom-windows-event-forwarding-logs/)
+* [Introducing Project Sauron](https://blogs.technet.microsoft.com/russellt/2017/05/09/project-sauron-introduction/)
+* [Project Sauron GitHub repository](https://github.com/russelltomkins/project-sauron)
+* [Windows Event Forwarding for Network Defense](https://medium.com/palantir/windows-event-forwarding-for-network-defense-cb208d5ff86f)
+* [Palantir Windows Event Forwarding GitHub repository](https://github.com/palantir/windows-event-forwarding)
