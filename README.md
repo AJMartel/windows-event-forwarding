@@ -94,3 +94,9 @@ Many open source publications were referenced for the development of these Subsc
 * [Project Sauron GitHub repository](https://github.com/russelltomkins/project-sauron)
 * [Windows Event Forwarding for Network Defense](https://medium.com/palantir/windows-event-forwarding-for-network-defense-cb208d5ff86f)
 * [Palantir Windows Event Forwarding GitHub repository](https://github.com/palantir/windows-event-forwarding)
+
+**Other**
+* [Monitoring Active Directory for Signs of Compromise](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
+* [Sean Metcalf, Trimarc founder, has presented on security attack and defense at several major security conferences including](https://www.trimarcsecurity.com/presentations)
+* [Sean Metcalf Github](https://github.com/PyroTek3)
+* [Sean Metcalf - ADSecurity](https://adsecurity.org/)
