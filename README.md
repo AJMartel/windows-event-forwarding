@@ -64,12 +64,17 @@ Many open source publications were referenced for the development of these Subsc
 * [Palantir Medium: Windows Event Forwarding for Network Defense](https://medium.com/@palantir/windows-event-forwarding-for-network-defense-cb208d5ff86f)
 * [Microsoft Windows Event Forwarding to help with intrusion detection](https://docs.microsoft.com/en-us/windows/threat-protection/use-windows-event-forwarding-to-assist-in-instrusion-detection)
 * [Monitoring What Matters](https://blogs.technet.microsoft.com/jepayne/2015/11/23/monitoring-what-matters-windows-event-forwarding-for-everyone-even-if-you-already-have-a-siem/)
-* [Spotting the Adversary](https://www.iad.gov/iad/library/reports/spotting-the-adversary-with-windows-event-log-monitoring.cfm)
+* [Spotting the Adversary](https://apps.nsa.gov/iaarchive/library/ia-guidance/security-configuration/applications/spotting-the-adversary-with-windows-event-log-monitoring.cfm)
 * [Creating Custom Windows Event Forwarding Logs](https://blogs.technet.microsoft.com/russellt/2016/05/18/creating-custom-windows-event-forwarding-logs/)
 * [Windows Logging Cheat Sheet](https://static1.squarespace.com/static/552092d5e4b0661088167e5c/t/580595db9f745688bc7477f6/1476761074992/Windows+Logging+Cheat+Sheet_ver_Oct_2016.pdf)
-* [Event Forwarding Guidance](https://github.com/iadgov/Event-Forwarding-Guidance/)
+* [Event Forwarding Guidance](https://github.com/nsacyber/Event-Forwarding-Guidance)
 * [Windows Event Log Reference](https://msdn.microsoft.com/en-us/library/aa385785(v=vs.85).aspx):
 * [Windows Event Log Consuming Events](https://msdn.microsoft.com/en-us/library/dd996910(v=vs.85).aspx)
 * [Advanced XML Filtering](https://blogs.technet.microsoft.com/askds/2011/09/26/advanced-xml-filtering-in-the-windows-event-viewer/)
 * [XPath Documentation](https://www.w3.org/TR/xpath/)
 * [Exploit Guard Event Views](https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/event-views-exploit-guard)
+
+**From: [NSA Github Repository - WELM](https://github.com/nsacyber/Windows-Event-Log-Messages)**
+* [Spotting the Adversary with Windows Event Log Monitoring](https://apps.nsa.gov/iaarchive/library/reports/spotting-the-adversary-with-windows-event-log-monitoring.cfm)
+* [Event-Forwarding-Guidance](https://github.com/nsacyber/Event-Forwarding-Guidance) repository for the Spotting the Adversary with Windows Event Log Monitoring paper
+* [Windows 10 and Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630)
