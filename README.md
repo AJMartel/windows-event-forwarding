@@ -74,12 +74,12 @@ Many open source publications were referenced for the development of these Subsc
 * [XPath Documentation](https://www.w3.org/TR/xpath/)
 * [Exploit Guard Event Views](https://docs.microsoft.com/en-us/windows/threat-protection/windows-defender-exploit-guard/event-views-exploit-guard)
 
-**From: [NSA Github Repository - Windows Event Log Messages](https://github.com/nsacyber/Windows-Event-Log-Messages)**
+**From [NSA Github Repository - Windows Event Log Messages](https://github.com/nsacyber/Windows-Event-Log-Messages)**
 * [Spotting the Adversary with Windows Event Log Monitoring](https://apps.nsa.gov/iaarchive/library/reports/spotting-the-adversary-with-windows-event-log-monitoring.cfm)
 * [Event-Forwarding-Guidance](https://github.com/nsacyber/Event-Forwarding-Guidance) repository for the Spotting the Adversary with Windows Event Log Monitoring paper
 * [Windows 10 and Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630)
 
-**From: [NSA Github Repository - Event Forwarding Guidance](https://github.com/nsacyber/Event-Forwarding-Guidance)**
+**From [NSA Github Repository - Event Forwarding Guidance](https://github.com/nsacyber/Event-Forwarding-Guidance)**
 * [Microsoft Windows Event Forwarding resources](https://aka.ms/wef)
 * [Use Windows Event Forwarding to help with intrusion detection](https://docs.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection)
 * [Windows 10 and Windows Server 2016 security auditing and monitoring reference](https://www.microsoft.com/en-us/download/details.aspx?id=52630)
@@ -98,5 +98,5 @@ Many open source publications were referenced for the development of these Subsc
 **Other**
 * [Monitoring Active Directory for Signs of Compromise](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/monitoring-active-directory-for-signs-of-compromise)
 * [Sean Metcalf, Trimarc founder, has presented on security attack and defense at several major security conferences including](https://www.trimarcsecurity.com/presentations)
-* [Sean Metcalf Github](https://github.com/PyroTek3)
+* [Sean Metcalf - Github](https://github.com/PyroTek3)
 * [Sean Metcalf - ADSecurity](https://adsecurity.org/)
