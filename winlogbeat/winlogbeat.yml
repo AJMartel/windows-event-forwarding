@@ -1,22 +1,61 @@
 winlogbeat.event_logs:
+# Local events
   - name: Application
-      ignore_older: 72h
   - name: Security
-    event_id: ...
-    processors:
-      - drop_event.when.not.or:
-        - equals.event_id: 903
-        - equals.event_id: 1024
-        - equals.event_id: 4624
   - name: System
   - name: Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
   - name: Microsoft-Windows-Sysmon/Operational
-
-output.elasticsearch:
-  hosts:
-    - localhost:9200
-
-logging.to_files: true
-logging.files:
-  path: C:\ProgramData\winlogbeat\Logs
-logging.level: info
+# Collected events
+  - name: WEC_Powershell
+  - name: WEC_WMI
+  - name: WEC_EMET
+  - name: WEC_Authentication_Other
+  - name: WEC_Services
+  - name: WEC_Process_Execution
+  - name: WEC_Code_Integrity
+  - name: WEC2_Registry
+  - name: WEC2_Applocker
+  - name: WEC2_Task_Scheduler
+  - name: WEC2_Application_Crashes
+  - name: WEC2_Windows-Defender
+  - name: WEC2_Group_Policy_Errors
+  - name: WEC2_Object_Manipulation
+  - name: WEC3_Drivers
+  - name: WEC3_Account_Management
+  - name: WEC3_Windows_Diagnostics
+  - name: WEC3_Smart_Card
+  - name: WEC3_Print
+  - name: WEC3_Firewall
+  - name: WEC3_External_Devices
+  - name: WEC4_Wireless
+  - name: WEC4_Shares
+  - name: WEC4_Bits_Client
+  - name: WEC4_Windows_Updates
+  - name: WEC4_DNS
+  - name: WEC4_System_Time_Change
+  - name: WEC5_Operating_System
+  - name: WEC5_Certificate_Authority
+  - name: WEC5_MSI_Packages
+  - name: WEC5_Log_Deletion_Security
+  - name: WEC5_Log_Deletion_System
+  - name: WEC5_Autoruns
+  - name: WEC6_Software_Resctriction_Policies
+  - name: WEC6_ADFS
+  - name: WEC6_Device_Guard
+  - name: WEC6_Microsoft_Office
+  - name: WEC6_Exploit_Guard
+  - name: WEC7_Active_Directory
+  - name: WEC7_Terminal_Services
+  - name: WEC7_Privilege_Use
+  - name: WEC7_Kerberos
+  - name: WEC7_Authentication
+  - name: WEC8_Sysmon_Creation_Time
+  - name: WEC8_Sysmon_File_Creation
+  - name: WEC8_Sysmon_Library_Load
+  - name: WEC8_Sysmon_Networking
+  - name: WEC8_Sysmon_Other
+  - name: WEC8_Sysmon_Named_Pipes
+  - name: WEC8_Sysmon_Process_Access
+  - name: WEC9_Sysmon_Process
+  - name: WEC9_Sysmon_Registry
+  - name: WEC16_Test

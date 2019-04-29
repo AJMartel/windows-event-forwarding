@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
+    <SubscriptionId>Sysmon-Process-Access</SubscriptionId>
+    <SubscriptionType>SourceInitiated</SubscriptionType>
+    <Description>Provides visibility of processes accessing other processes</Description>
+  <Enabled>true</Enabled>
+    <Uri>http://schemas.microsoft.com/wbem/wsman/1/windows/EventLog</Uri>
+    <ConfigurationMode>Custom</ConfigurationMode>
+    <Delivery Mode="Push">
+      <Batching>
+        <MaxItems>1</MaxItems>
+        <MaxLatencyTime>300000</MaxLatencyTime>
+      </Batching>
+      <PushSettings>
+        <Heartbeat Interval="1800000"/>
+      </PushSettings>
+    </Delivery>
+    <Query><![CDATA[
+<QueryList>
+  <!-- Process access events -->
+  <Query Id="0" Path="Microsoft-Windows-Sysmon/Operational">
+    <Select Path="Microsoft-Windows-Sysmon/Operational">
+        *[System[(EventID=10)]]
+    </Select>
+    <Suppress Path="Microsoft-Windows-Sysmon/Operational">
+        <!-- For potential processs memory reads, only capture this if it's to LSASS or WinLogon, since this is relatively common activity. -->
+        *[EventData[Data[@Name='GrantedAccess']='0x1410']] and (*[EventData[Data[@Name='TargetImage']='C:\Windows\system32\lsass.exe']] or *[EventData[Data[@Name='TargetImage']='C:\Windows\system32\winlogon.exe']])
+    </Suppress>
+  </Query>
+</QueryList>
+]]>
+    </Query>
+    <ReadExistingEvents>true</ReadExistingEvents>
+    <TransportName>HTTP</TransportName>
+    <ContentFormat>RenderedText</ContentFormat>
+    <Locale Language="en-US"/>
+    <LogFile>WEC8-Sysmon-Process-Access</LogFile>
+   <AllowedSourceNonDomainComputers/>
+  <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
+</Subscription>
+

@@ -43,7 +43,7 @@ Windows Event Forwarding or WEF is a subscription-based methodology to push even
 * **Smart-Card**: Collects events related to smart card authentication.
 * **Software-Restriction-Policies**: Collects events related to Software Restriction Policies from the System Log
 * **System-Time-Change**: Collects events related to system time changes.
-* **Sysmon**: Collects events related to Sysinternals Sysmon.
+* **Sysmon-...**: Collects events related to Sysinternals Sysmon.
 * **Task-Scheduler**: Collects events related to the task scheduler and tasks.
 * **Terminal-Services**: Collects events from terminal services and terminal services gateway.
 * **Windows-Defender**: Collects Windows Defender detection and operational events.

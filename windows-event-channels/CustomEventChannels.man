@@ -75,7 +75,6 @@
 					<channel name="WEC4-Shares" chid="WEC4-Shares" symbol="WEC4_Shares" type="Operational" enabled="true"></channel>
 					<channel name="WEC4-Bits-Client" chid="WEC4-Bits-Client" symbol="WEC4_Bits_Client" type="Operational" enabled="true"></channel>
 					<channel name="WEC4-Windows-Updates" chid="WEC4-Windows-Updates" symbol="WEC4_Windows_Updates" type="Operational" enabled="true"></channel>
-					<channel name="WEC4-Hotpatching-Errors" chid="WEC4-Hotpatching-Errors" symbol="WEC4_Hotpatching_Errors" type="Operational" enabled="true"></channel>
 					<channel name="WEC4-DNS" chid="WEC4-DNS" symbol="WEC4_DNS" type="Operational" enabled="true"></channel>
 					<channel name="WEC4-System-Time-Change" chid="WEC4-System-Time-Change" symbol="WEC4_System_Time_Change" type="Operational" enabled="true"></channel>
 				</channels>
@@ -94,7 +93,6 @@
 					<importChannel name="System" chid="C5"></importChannel>
 					<channel name="WEC5-Operating-System" chid="WEC5-Operating-System" symbol="WEC5_Operating_System" type="Operational" enabled="true"></channel>
 					<channel name="WEC5-Certificate-Authority" chid="WEC5-Certificate-Authority" symbol="WEC5_Certificate_Authority" type="Operational" enabled="true"></channel>
-					<channel name="WEC5-Crypto-API" chid="WEC5-Crypto-API" symbol="WEC5_Crypto_API" type="Operational" enabled="true"></channel>
 					<channel name="WEC5-MSI-Packages" chid="WEC5-MSI-Packages" symbol="WEC5_MSI_Packages" type="Operational" enabled="true"></channel>
 					<channel name="WEC5-Log-Deletion-Security" chid="WEC5-Log-Deletion-Security" symbol="WEC5_Log_Deletion_Security" type="Operational" enabled="true"></channel>
 					<channel name="WEC5-Log-Deletion-System" chid="WEC5-Log-Deletion-System" symbol="WEC5_Log_Deletion_System" type="Operational" enabled="true"></channel>
@@ -116,10 +114,8 @@
 					<channel name="WEC6-Software-Restriction-Policies" chid="WEC6-Software-Restriction-Policies" symbol="WEC6_Software_Restriction_Policies" type="Operational" enabled="true"></channel>
 					<channel name="WEC6-ADFS" chid="WEC6-ADFS" symbol="WEC6_ADFS" type="Operational" enabled="true"></channel>
 					<channel name="WEC6-Device-Guard" chid="WEC6-Device-Guard" symbol="WEC6_Device_Guard" type="Operational" enabled="true"></channel>
-					<channel name="WEC6-Duo-Security" chid="WEC6-Duo-Security" symbol="WEC6_Duo_Security" type="Operational" enabled="true"></channel>
 					<channel name="WEC6-Microsoft-Office" chid="WEC6-Microsoft-Office" symbol="WEC6_Microsoft_Office" type="Operational" enabled="true"></channel>
 					<channel name="WEC6-Exploit-Guard" chid="WEC6-Exploit-Guard" symbol="WEC6_Exploit_Guard" type="Operational" enabled="true"></channel>
-					<channel name="WEC6-Sysmon" chid="WEC6-Sysmon" symbol="WEC6_Sysmon" type="Operational" enabled="true"></channel>
 				</channels>
 				<templates>
 					<template tid="DUMMY_TEMPLATE">
@@ -137,8 +133,8 @@
 					<channel name="WEC7-Active-Directory" chid="WEC7-Active-Directory" symbol="WEC7_Active_Directory" type="Operational" enabled="true"></channel>
 					<channel name="WEC7-Terminal-Services" chid="WEC7-Terminal-Services" symbol="WEC7_Terminal_Services" type="Operational" enabled="true"></channel>
 					<channel name="WEC7-Privilege-Use" chid="WEC7-Privilege-Use" symbol="WEC7_Privilege_Use" type="Operational" enabled="true"></channel>
-					<channel name="WEC7-Authentication" chid="WEC7-Authentication" symbol="WEC7_Authentication" type="Operational" enabled="true"></channel>
 					<channel name="WEC7-Kerberos" chid="WEC7-Kerberos" symbol="WEC7_Kerberos" type="Operational" enabled="true"></channel>
+					<channel name="WEC7-Authentication" chid="WEC7-Authentication" symbol="WEC7_Authentication" type="Operational" enabled="true"></channel>
 				</channels>
 				<templates>
 					<template tid="DUMMY_TEMPLATE">
@@ -153,6 +149,13 @@
 				</events>
 				<channels>
 					<importChannel name="System" chid="C8"></importChannel>
+					<channel name="WEC8-Sysmon-Creation-Time" chid="WEC8-Sysmon-Creation-Time" symbol="WEC8_Sysmon_Creation_Time" type="Operational" enabled="true"></channel>
+					<channel name="WEC8-sysmon-Sysmon-File-Creation" chid="WEC8-Sysmon-File-Creation" symbol="WEC8_Sysmon_File_Creation" type="Operational" enabled="true"></channel>
+					<channel name="WEC8-Sysmon-Library-Load" chid="WEC8-Sysmon-Library-Load" symbol="WEC8_Sysmon_Library_Load" type="Operational" enabled="true"></channel>
+					<channel name="WEC8-Sysmon-Networking" chid="WEC8-Sysmon-Networking" symbol="WEC8_Sysmon_Networking" type="Operational" enabled="true"></channel>
+					<channel name="WEC8-Sysmon-Other" chid="WEC8-Sysmon-Other" symbol="WEC8_Sysmon_Other" type="Operational" enabled="true"></channel>
+					<channel name="WEC8-Sysmon-Named-Pipes" chid="WEC8-Sysmon-Named-Pipes" symbol="WEC8_Sysmon_Named_Pipes" type="Operational" enabled="true"></channel>
+					<channel name="WEC8-Sysmon-Process-Access" chid="WEC8-Sysmon-Process-Access" symbol="WEC8_Sysmon_Process_Access" type="Operational" enabled="true"></channel>
 				</channels>
 				<templates>
 					<template tid="DUMMY_TEMPLATE">
@@ -167,6 +170,8 @@
 				</events>
 				<channels>
 					<importChannel name="System" chid="C9"></importChannel>
+					<channel name="WEC9-Sysmon-Process" chid="WEC9-Sysmon-Process" symbol="WEC9_Sysmon_Process" type="Operational" enabled="true"></channel>
+					<channel name="WEC9-Sysmon-Registry" chid="WEC9-Sysmon-Registry" symbol="WEC9_Sysmon_Registry" type="Operational" enabled="true"></channel>
 				</channels>
 				<templates>
 					<template tid="DUMMY_TEMPLATE">
