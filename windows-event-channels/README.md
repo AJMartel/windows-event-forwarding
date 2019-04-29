@@ -37,21 +37,17 @@ If you're like us and don't trust random DLLs, feel free to use our manifest fil
 * **WEC4-Shares**: Event channel for collecting SMB share events.
 * **WEC4-Bits-Client**: Event channel for collecting BITS Client events.
 * **WEC4-Windows-Update**: Event channel for collecting windows update events.
-* **WEC4-Hotpatching-Errors**: Event channel for collecting hotpatching error events.
 * **WEC4-DNS**: Event channel for collecting DNS query and DLL loading events.
 * **WEC4-System-Time-Change**: Event channel for collecting time change events.
 * **WEC5-Operating-System**: Event channel for collecting operating system events.
 * **WEC5-Certificate-Authority**: Event channel for collecting CA events.
-* **WEC5-Crypto-API**: Event channel for collecting crypto API events.
 * **WEC5-MSI-Packages**: Event channel for collecting package installation events.
 * **WEC5-Log-Deletion-Security**: Event channel for collecting log deletion events.
 * **WEC5-Log-Deletion-System**: Event channel for collecting log deletion events.
 * **WEC5-Autoruns**: Event channel for collecting Autoruns-To-Wineventlog events.
 * **WEC6-Exploit-Guard**: Event channel for collecting Exploit Guard events.
-* **WEC6-Duo-Security**: Event channel for collecting Duo Security events.
 * **WEC6-Device-Guard**: Event channel for collecting Device Guard events.
 * **WEC6-ADFS**: Event channel for collecting Active Directory Federation Services events.
-* **WEC6-Sysmon**: Event channel for collecting Sysinternals Sysmon events.
 * **WEC6-Software-Restriction-Policies**: Event channel for collecting Software Restriction Policy events.
 * **WEC6-Microsoft-Office**: Event channel for collecting Microsoft Office events.
 * **WEC7-Active-Directory**: Event channel for collecting Active Directory change events.
@@ -59,6 +55,15 @@ If you're like us and don't trust random DLLs, feel free to use our manifest fil
 * **WEC7-Privilege-Use**: Event channel for collecting privilege events.
 * **WEC7-Authentication**: Event channel for collecting authentication events.
 * **WEC7-Kerberos**: Event channel for collecting Kerberos events.
+* **WEC8-Sysmon-Creation-Time**: Provides visibility of creation time modifications
+* **WEC8-Sysmon-File-Creation**: Provides visibility of created files and streams
+* **WEC8-Sysmon-Library-Load**: Provides visibility of libraries/images being loaded
+* **WEC8-Sysmon-Networking**: Provides visibility network connections
+* **WEC8-Sysmon-Other**: Provides visibility of driver loads, remote thread creation and process access, and sysmon configuration changes
+* **WEC8-Sysmon-Named-Pipes**: Provides visibility of named pipes
+* **WEC8-Sysmon-Process-Access**: Provides visibility of processes accessing other processes
+* **WEC9-Sysmon-Process**: Provides visibility of process execution and termination
+* **WEC9-Sysmon-Registry**: Provides visibility of changes to the registry
 
 ## Pre-Requisites:
 You will need the following software to build the DLL:
