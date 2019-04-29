@@ -150,7 +150,7 @@
 				<channels>
 					<importChannel name="System" chid="C8"></importChannel>
 					<channel name="WEC8-Sysmon-Creation-Time" chid="WEC8-Sysmon-Creation-Time" symbol="WEC8_Sysmon_Creation_Time" type="Operational" enabled="true"></channel>
-					<channel name="WEC8-sysmon-Sysmon-File-Creation" chid="WEC8-Sysmon-File-Creation" symbol="WEC8_Sysmon_File_Creation" type="Operational" enabled="true"></channel>
+					<channel name="WEC8-Sysmon-File-Creation" chid="WEC8-Sysmon-File-Creation" symbol="WEC8_Sysmon_File_Creation" type="Operational" enabled="true"></channel>
 					<channel name="WEC8-Sysmon-Library-Load" chid="WEC8-Sysmon-Library-Load" symbol="WEC8_Sysmon_Library_Load" type="Operational" enabled="true"></channel>
 					<channel name="WEC8-Sysmon-Networking" chid="WEC8-Sysmon-Networking" symbol="WEC8_Sysmon_Networking" type="Operational" enabled="true"></channel>
 					<channel name="WEC8-Sysmon-Other" chid="WEC8-Sysmon-Other" symbol="WEC8_Sysmon_Other" type="Operational" enabled="true"></channel>

@@ -18,7 +18,6 @@ Windows Event Forwarding or WEF is a subscription-based methodology to push even
 * **Device-Guard**: Collects events related to Windows Device Guard.
 * **DNS**: Collects DNS queries and DNS Server DLL loading events.
 * **Drivers**: Collects events related to user-mode driver loading, failed driver loading, or signing issues.
-* **Duo-Security**: Collects Duo Security authentication events.
 * **EMET**: Collects events related to the Enhanced Mitigation Experience Toolset (EMET).
 * **Event-Log-Diagnostics**: Collects events related to the Event Log service.
 * **Explicit-Credentials**: Collects events that use explicit credentials.
