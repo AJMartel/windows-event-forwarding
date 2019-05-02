@@ -30,12 +30,8 @@
     <TransportName>HTTP</TransportName>
     <ContentFormat>Events</ContentFormat>
     <Locale Language="en-US"/>
-    <LogFile>ForwardedEvents</LogFile>
-    <PublisherName>Microsoft-Windows-EventCollector</PublisherName>
-    <AllowedSourceNonDomainComputers>
-        <AllowedIssuerCAList>
-        </AllowedIssuerCAList>
-    </AllowedSourceNonDomainComputers>
-    <AllowedSourceDomainComputers></AllowedSourceDomainComputers>
+    <LogFile>WEC8-Sysmon-Named-Pipes</LogFile>
+  <AllowedSourceNonDomainComputers/>
+  <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
 </Subscription>
 
