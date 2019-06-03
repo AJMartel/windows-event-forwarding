@@ -1,6 +1,6 @@
 # Windows Event Forwarding Guidance
-[Use Windows Event Forwarding to assist in intrusion detection](https://docs.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection)
-[Windows Event Collector](https://docs.microsoft.com/en-us/windows/desktop/wec/windows-event-collector)
+* [Use Windows Event Forwarding to assist in intrusion detection](https://docs.microsoft.com/en-us/windows/security/threat-protection/use-windows-event-forwarding-to-assist-in-intrusion-detection)
+* [Windows Event Collector](https://docs.microsoft.com/en-us/windows/desktop/wec/windows-event-collector)
 
 ## About This Repository
 Over the past few years, Palantir has a maintained an internal Windows Event Forwarding (WEF) pipeline for generating and centrally collecting logs of forensic and security value from Microsoft Windows hosts. Once these events are collected and indexed, alerting and detection strategies (ADS) can be constructed not only on high-fidelity security events (e.g. log deletion), but also for deviations from normalcy, such as unusual service account access, access to sensitive filesystem or registry locations, or installation of malware persistence.
